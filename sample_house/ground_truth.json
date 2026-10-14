@@ -1,0 +1,452 @@
+{
+  "coordinate_system": "local Cartesian, metres; x east, y north, z up",
+  "stage": "Slab and north/west walls built; south/east walls partly built; roof, door and windows absent",
+  "scan_seed": 20260929,
+  "scan_spacing_m": 0.1,
+  "scan_noise_sigma_m": 0.008,
+  "scan_keep_probability": 0.82,
+  "point_count": 14041,
+  "completion_definition": "Built solid volume divided by full BIM solid volume per IFC element",
+  "overall_built_volume_fraction": 0.572754,
+  "elements": [
+    {
+      "element_id": "slab",
+      "ifc_guid": "34jqvVzVrTSQ$mAiJkx3eh",
+      "ifc_class": "IFCSLAB",
+      "full_bbox_m": [
+        [
+          -0.2,
+          -0.2,
+          -0.2
+        ],
+        [
+          8.2,
+          6.2,
+          0
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          -0.2,
+          -0.2,
+          -0.2
+        ],
+        [
+          8.2,
+          6.2,
+          0
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "south_wall_west",
+      "ifc_guid": "0doliM5tbO6A1HKtn3_GRQ",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          3.2,
+          0.2,
+          3
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          3.2,
+          0.2,
+          2.1
+        ]
+      ],
+      "built_volume_fraction": 0.7,
+      "status": "partial"
+    },
+    {
+      "element_id": "south_wall_east",
+      "ifc_guid": "0b0ommUPbTPe9vMGZQxfcX",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          4.1,
+          0,
+          0
+        ],
+        [
+          8,
+          0.2,
+          3
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "south_door_lintel",
+      "ifc_guid": "3SOq1Fmr5M1g3LCQ6$khb0",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          3.2,
+          0,
+          2.1
+        ],
+        [
+          4.1,
+          0.2,
+          3
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "north_wall_west",
+      "ifc_guid": "2zk8XJkqDPZho7r$OIEti6",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          0,
+          5.8,
+          0
+        ],
+        [
+          2,
+          6,
+          3
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          0,
+          5.8,
+          0
+        ],
+        [
+          2,
+          6,
+          3
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "north_wall_east",
+      "ifc_guid": "1wgsf7L7PUnw9E4BCQZL__",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          3.2,
+          5.8,
+          0
+        ],
+        [
+          8,
+          6,
+          3
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          3.2,
+          5.8,
+          0
+        ],
+        [
+          8,
+          6,
+          3
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "north_window_sill",
+      "ifc_guid": "2SjRx3qCDUJ8TS0TWAYurW",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          2,
+          5.8,
+          0
+        ],
+        [
+          3.2,
+          6,
+          1
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          2,
+          5.8,
+          0
+        ],
+        [
+          3.2,
+          6,
+          1
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "north_window_header",
+      "ifc_guid": "1EojxPDY9OjQX6NqmIMOeM",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          2,
+          5.8,
+          2.2
+        ],
+        [
+          3.2,
+          6,
+          3
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "west_wall",
+      "ifc_guid": "1W4MIkQnjGCejySOtpNlzG",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          0,
+          0.2,
+          0
+        ],
+        [
+          0.2,
+          5.8,
+          3
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          0,
+          0.2,
+          0
+        ],
+        [
+          0.2,
+          5.8,
+          3
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "east_wall_south",
+      "ifc_guid": "1wV$6cLQ1KxegVHNwnXo88",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          7.8,
+          0.2,
+          0
+        ],
+        [
+          8,
+          2,
+          3
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          7.8,
+          0.2,
+          0
+        ],
+        [
+          8,
+          2,
+          1.5
+        ]
+      ],
+      "built_volume_fraction": 0.5,
+      "status": "partial"
+    },
+    {
+      "element_id": "east_wall_north",
+      "ifc_guid": "0DHhi_6z1VeQXBkyM2fbVY",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          7.8,
+          3.2,
+          0
+        ],
+        [
+          8,
+          5.8,
+          3
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          7.8,
+          3.2,
+          0
+        ],
+        [
+          8,
+          5.8,
+          1.5
+        ]
+      ],
+      "built_volume_fraction": 0.5,
+      "status": "partial"
+    },
+    {
+      "element_id": "east_window_sill",
+      "ifc_guid": "0c982ri6rTqR1PYkCbdR5D",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          7.8,
+          2,
+          0
+        ],
+        [
+          8,
+          3.2,
+          1
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          7.8,
+          2,
+          0
+        ],
+        [
+          8,
+          3.2,
+          1
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "east_window_header",
+      "ifc_guid": "2TFZqnQ0DQc8mlHLxopJLr",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          7.8,
+          2,
+          2.2
+        ],
+        [
+          8,
+          3.2,
+          3
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "flat_roof",
+      "ifc_guid": "3cjI8R_hTVl9JcThpKb$JH",
+      "ifc_class": "IFCSLAB",
+      "full_bbox_m": [
+        [
+          -0.2,
+          -0.2,
+          3
+        ],
+        [
+          8.2,
+          6.2,
+          3.2
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "front_door",
+      "ifc_guid": "25RSqmwjvLmfzxzdyWdGQZ",
+      "ifc_class": "IFCDOOR",
+      "full_bbox_m": [
+        [
+          3.2,
+          0.06,
+          0
+        ],
+        [
+          4.1,
+          0.14,
+          2.1
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "north_window",
+      "ifc_guid": "0zzQw7SujVQhQO5sI47vhf",
+      "ifc_class": "IFCWINDOW",
+      "full_bbox_m": [
+        [
+          2,
+          5.86,
+          1
+        ],
+        [
+          3.2,
+          5.94,
+          2.2
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "east_window",
+      "ifc_guid": "0HufmknkXP3R6AGUzgKuO$",
+      "ifc_class": "IFCWINDOW",
+      "full_bbox_m": [
+        [
+          7.86,
+          2,
+          1
+        ],
+        [
+          7.94,
+          3.2,
+          2.2
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0,
+      "status": "not_started"
+    }
+  ]
+}

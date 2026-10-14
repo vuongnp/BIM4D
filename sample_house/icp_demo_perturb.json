@@ -1,0 +1,350 @@
+{
+  "direction": "scan_to_BIM",
+  "units": "metres",
+  "ifc": "sample_house/full_house.ifc",
+  "scan": "sample_house/unfinished_scan.ply",
+  "demo_perturb": true,
+  "initial_method": "slab_plane_and_footprint",
+  "initial_pose": {
+    "R": [
+      [
+        0.9995566728431636,
+        0.02977344076025919,
+        0
+      ],
+      [
+        -0.02977344076025919,
+        0.9995566728431636,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "t": [
+      -0.0763291555802339,
+      -0.019977356758500875,
+      -0.06012
+    ]
+  },
+  "R": [
+    [
+      0.9975313838622423,
+      0.07017725599246938,
+      0.002508176877188072
+    ],
+    [
+      -0.07017319552906234,
+      0.997533421667903,
+      -0.0016719105136422058
+    ],
+    [
+      -0.0026193203545621033,
+      0.0014917764219429502,
+      0.9999954568716736
+    ]
+  ],
+  "t": [
+    -0.17438216166750964,
+    0.13800483026475474,
+    -0.04824232544926754
+  ],
+  "scan_points": 14041,
+  "registration_points": 7279,
+  "model_surface_points": 15232,
+  "iterations": [
+    {
+      "iteration": 1,
+      "correspondences": 6187,
+      "rms_m": 0.07621
+    },
+    {
+      "iteration": 2,
+      "correspondences": 6187,
+      "rms_m": 0.075432
+    },
+    {
+      "iteration": 3,
+      "correspondences": 6187,
+      "rms_m": 0.074356
+    },
+    {
+      "iteration": 4,
+      "correspondences": 6187,
+      "rms_m": 0.073098
+    },
+    {
+      "iteration": 5,
+      "correspondences": 6187,
+      "rms_m": 0.071726
+    },
+    {
+      "iteration": 6,
+      "correspondences": 6187,
+      "rms_m": 0.070329
+    },
+    {
+      "iteration": 7,
+      "correspondences": 6187,
+      "rms_m": 0.06883
+    },
+    {
+      "iteration": 8,
+      "correspondences": 6187,
+      "rms_m": 0.067316
+    },
+    {
+      "iteration": 9,
+      "correspondences": 6187,
+      "rms_m": 0.065514
+    },
+    {
+      "iteration": 10,
+      "correspondences": 6187,
+      "rms_m": 0.063632
+    },
+    {
+      "iteration": 11,
+      "correspondences": 6187,
+      "rms_m": 0.061754
+    },
+    {
+      "iteration": 12,
+      "correspondences": 6187,
+      "rms_m": 0.060134
+    },
+    {
+      "iteration": 13,
+      "correspondences": 6187,
+      "rms_m": 0.05884
+    },
+    {
+      "iteration": 14,
+      "correspondences": 6187,
+      "rms_m": 0.057964
+    },
+    {
+      "iteration": 15,
+      "correspondences": 6187,
+      "rms_m": 0.057363
+    },
+    {
+      "iteration": 16,
+      "correspondences": 6187,
+      "rms_m": 0.056966
+    },
+    {
+      "iteration": 17,
+      "correspondences": 6187,
+      "rms_m": 0.056746
+    },
+    {
+      "iteration": 18,
+      "correspondences": 6187,
+      "rms_m": 0.056603
+    },
+    {
+      "iteration": 19,
+      "correspondences": 6187,
+      "rms_m": 0.0565
+    },
+    {
+      "iteration": 20,
+      "correspondences": 6187,
+      "rms_m": 0.056424
+    },
+    {
+      "iteration": 21,
+      "correspondences": 6187,
+      "rms_m": 0.056373
+    },
+    {
+      "iteration": 22,
+      "correspondences": 6187,
+      "rms_m": 0.056334
+    },
+    {
+      "iteration": 23,
+      "correspondences": 6187,
+      "rms_m": 0.05631
+    },
+    {
+      "iteration": 24,
+      "correspondences": 6187,
+      "rms_m": 0.056295
+    },
+    {
+      "iteration": 25,
+      "correspondences": 6187,
+      "rms_m": 0.056286
+    },
+    {
+      "iteration": 26,
+      "correspondences": 6187,
+      "rms_m": 0.056279
+    },
+    {
+      "iteration": 27,
+      "correspondences": 6187,
+      "rms_m": 0.056275
+    },
+    {
+      "iteration": 28,
+      "correspondences": 6187,
+      "rms_m": 0.056272
+    },
+    {
+      "iteration": 29,
+      "correspondences": 6187,
+      "rms_m": 0.056268
+    },
+    {
+      "iteration": 30,
+      "correspondences": 6187,
+      "rms_m": 0.056265
+    }
+  ],
+  "final_rms_m": 0.056265,
+  "scan_inlier_fraction_0_20m": 1.0,
+  "status_rule": "surface support <0.35: not_started; >=0.85: complete; otherwise partial",
+  "elements": [
+    {
+      "element_id": "slab",
+      "ifc_guid": "34jqvVzVrTSQ$mAiJkx3eh",
+      "supported_surface_fraction": 0.9984,
+      "estimated_status": "complete",
+      "supported_samples": 2448,
+      "surface_samples": 2452
+    },
+    {
+      "element_id": "south_wall_west",
+      "ifc_guid": "0doliM5tbO6A1HKtn3_GRQ",
+      "supported_surface_fraction": 0.7629,
+      "estimated_status": "partial",
+      "supported_samples": 708,
+      "surface_samples": 928
+    },
+    {
+      "element_id": "south_wall_east",
+      "ifc_guid": "0b0ommUPbTPe9vMGZQxfcX",
+      "supported_surface_fraction": 0.0638,
+      "estimated_status": "not_started",
+      "supported_samples": 72,
+      "surface_samples": 1128
+    },
+    {
+      "element_id": "south_door_lintel",
+      "ifc_guid": "3SOq1Fmr5M1g3LCQ6$khb0",
+      "supported_surface_fraction": 0.0204,
+      "estimated_status": "not_started",
+      "supported_samples": 2,
+      "surface_samples": 98
+    },
+    {
+      "element_id": "north_wall_west",
+      "ifc_guid": "2zk8XJkqDPZho7r$OIEti6",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 596,
+      "surface_samples": 596
+    },
+    {
+      "element_id": "north_wall_east",
+      "ifc_guid": "1wgsf7L7PUnw9E4BCQZL__",
+      "supported_surface_fraction": 0.9963,
+      "estimated_status": "complete",
+      "supported_samples": 1351,
+      "surface_samples": 1356
+    },
+    {
+      "element_id": "north_window_sill",
+      "ifc_guid": "2SjRx3qCDUJ8TS0TWAYurW",
+      "supported_surface_fraction": 0.9931,
+      "estimated_status": "complete",
+      "supported_samples": 143,
+      "surface_samples": 144
+    },
+    {
+      "element_id": "north_window_header",
+      "ifc_guid": "1EojxPDY9OjQX6NqmIMOeM",
+      "supported_surface_fraction": 0.2222,
+      "estimated_status": "not_started",
+      "supported_samples": 28,
+      "surface_samples": 126
+    },
+    {
+      "element_id": "west_wall",
+      "ifc_guid": "1W4MIkQnjGCejySOtpNlzG",
+      "supported_surface_fraction": 0.9993,
+      "estimated_status": "complete",
+      "supported_samples": 1519,
+      "surface_samples": 1520
+    },
+    {
+      "element_id": "east_wall_south",
+      "ifc_guid": "1wV$6cLQ1KxegVHNwnXo88",
+      "supported_surface_fraction": 0.5423,
+      "estimated_status": "partial",
+      "supported_samples": 269,
+      "surface_samples": 496
+    },
+    {
+      "element_id": "east_wall_north",
+      "ifc_guid": "0DHhi_6z1VeQXBkyM2fbVY",
+      "supported_surface_fraction": 0.5693,
+      "estimated_status": "partial",
+      "supported_samples": 419,
+      "surface_samples": 736
+    },
+    {
+      "element_id": "east_window_sill",
+      "ifc_guid": "0c982ri6rTqR1PYkCbdR5D",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 144,
+      "surface_samples": 144
+    },
+    {
+      "element_id": "east_window_header",
+      "ifc_guid": "2TFZqnQ0DQc8mlHLxopJLr",
+      "supported_surface_fraction": 0.0,
+      "estimated_status": "not_started",
+      "supported_samples": 0,
+      "surface_samples": 126
+    },
+    {
+      "element_id": "flat_roof",
+      "ifc_guid": "3cjI8R_hTVl9JcThpKb$JH",
+      "supported_surface_fraction": 0.0031,
+      "estimated_status": "not_started",
+      "supported_samples": 15,
+      "surface_samples": 4848
+    },
+    {
+      "element_id": "front_door",
+      "ifc_guid": "25RSqmwjvLmfzxzdyWdGQZ",
+      "supported_surface_fraction": 0.1905,
+      "estimated_status": "not_started",
+      "supported_samples": 40,
+      "surface_samples": 210
+    },
+    {
+      "element_id": "north_window",
+      "ifc_guid": "0zzQw7SujVQhQO5sI47vhf",
+      "supported_surface_fraction": 0.3086,
+      "estimated_status": "not_started",
+      "supported_samples": 50,
+      "surface_samples": 162
+    },
+    {
+      "element_id": "east_window",
+      "ifc_guid": "0HufmknkXP3R6AGUzgKuO$",
+      "supported_surface_fraction": 0.1852,
+      "estimated_status": "not_started",
+      "supported_samples": 30,
+      "surface_samples": 162
+    }
+  ]
+}

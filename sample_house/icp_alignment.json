@@ -1,0 +1,295 @@
+{
+  "direction": "scan_to_BIM",
+  "units": "metres",
+  "ifc": "sample_house/full_house.ifc",
+  "scan": "sample_house/unfinished_scan.ply",
+  "demo_perturb": false,
+  "initial_method": "slab_plane_and_footprint",
+  "initial_pose": {
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      -0.004685000000000716,
+      -0.0011450000000001737,
+      -0.00012
+    ]
+  },
+  "R": [
+    [
+      0.9999997919992084,
+      0.0005811372160817856,
+      0.0002797875552156088
+    ],
+    [
+      -0.0005809976557160204,
+      0.999999706904139,
+      -0.000498631487441555
+    ],
+    [
+      -0.00028007724652549695,
+      0.0004984688278121322,
+      0.9999998365427685
+    ]
+  ],
+  "t": [
+    -0.002750363441492709,
+    0.003888203835052728,
+    0.0006561027749932835
+  ],
+  "scan_points": 14041,
+  "registration_points": 8660,
+  "model_surface_points": 15232,
+  "iterations": [
+    {
+      "iteration": 1,
+      "correspondences": 7361,
+      "rms_m": 0.055739
+    },
+    {
+      "iteration": 2,
+      "correspondences": 7361,
+      "rms_m": 0.055706
+    },
+    {
+      "iteration": 3,
+      "correspondences": 7361,
+      "rms_m": 0.055684
+    },
+    {
+      "iteration": 4,
+      "correspondences": 7361,
+      "rms_m": 0.055673
+    },
+    {
+      "iteration": 5,
+      "correspondences": 7361,
+      "rms_m": 0.055668
+    },
+    {
+      "iteration": 6,
+      "correspondences": 7361,
+      "rms_m": 0.055663
+    },
+    {
+      "iteration": 7,
+      "correspondences": 7361,
+      "rms_m": 0.055661
+    },
+    {
+      "iteration": 8,
+      "correspondences": 7361,
+      "rms_m": 0.05566
+    },
+    {
+      "iteration": 9,
+      "correspondences": 7361,
+      "rms_m": 0.055659
+    },
+    {
+      "iteration": 10,
+      "correspondences": 7361,
+      "rms_m": 0.055658
+    },
+    {
+      "iteration": 11,
+      "correspondences": 7361,
+      "rms_m": 0.055658
+    },
+    {
+      "iteration": 12,
+      "correspondences": 7361,
+      "rms_m": 0.055658
+    },
+    {
+      "iteration": 13,
+      "correspondences": 7361,
+      "rms_m": 0.055658
+    },
+    {
+      "iteration": 14,
+      "correspondences": 7361,
+      "rms_m": 0.055658
+    },
+    {
+      "iteration": 15,
+      "correspondences": 7361,
+      "rms_m": 0.055658
+    },
+    {
+      "iteration": 16,
+      "correspondences": 7361,
+      "rms_m": 0.055658
+    },
+    {
+      "iteration": 17,
+      "correspondences": 7361,
+      "rms_m": 0.055658
+    },
+    {
+      "iteration": 18,
+      "correspondences": 7361,
+      "rms_m": 0.055658
+    },
+    {
+      "iteration": 19,
+      "correspondences": 7361,
+      "rms_m": 0.055658
+    }
+  ],
+  "final_rms_m": 0.055658,
+  "scan_inlier_fraction_0_20m": 1.0,
+  "status_rule": "surface support <0.35: not_started; >=0.85: complete; otherwise partial",
+  "elements": [
+    {
+      "element_id": "slab",
+      "ifc_guid": "34jqvVzVrTSQ$mAiJkx3eh",
+      "supported_surface_fraction": 0.9984,
+      "estimated_status": "complete",
+      "supported_samples": 2448,
+      "surface_samples": 2452
+    },
+    {
+      "element_id": "south_wall_west",
+      "ifc_guid": "0doliM5tbO6A1HKtn3_GRQ",
+      "supported_surface_fraction": 0.7629,
+      "estimated_status": "partial",
+      "supported_samples": 708,
+      "surface_samples": 928
+    },
+    {
+      "element_id": "south_wall_east",
+      "ifc_guid": "0b0ommUPbTPe9vMGZQxfcX",
+      "supported_surface_fraction": 0.0647,
+      "estimated_status": "not_started",
+      "supported_samples": 73,
+      "surface_samples": 1128
+    },
+    {
+      "element_id": "south_door_lintel",
+      "ifc_guid": "3SOq1Fmr5M1g3LCQ6$khb0",
+      "supported_surface_fraction": 0.0204,
+      "estimated_status": "not_started",
+      "supported_samples": 2,
+      "surface_samples": 98
+    },
+    {
+      "element_id": "north_wall_west",
+      "ifc_guid": "2zk8XJkqDPZho7r$OIEti6",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 596,
+      "surface_samples": 596
+    },
+    {
+      "element_id": "north_wall_east",
+      "ifc_guid": "1wgsf7L7PUnw9E4BCQZL__",
+      "supported_surface_fraction": 0.9971,
+      "estimated_status": "complete",
+      "supported_samples": 1352,
+      "surface_samples": 1356
+    },
+    {
+      "element_id": "north_window_sill",
+      "ifc_guid": "2SjRx3qCDUJ8TS0TWAYurW",
+      "supported_surface_fraction": 0.9931,
+      "estimated_status": "complete",
+      "supported_samples": 143,
+      "surface_samples": 144
+    },
+    {
+      "element_id": "north_window_header",
+      "ifc_guid": "1EojxPDY9OjQX6NqmIMOeM",
+      "supported_surface_fraction": 0.2222,
+      "estimated_status": "not_started",
+      "supported_samples": 28,
+      "surface_samples": 126
+    },
+    {
+      "element_id": "west_wall",
+      "ifc_guid": "1W4MIkQnjGCejySOtpNlzG",
+      "supported_surface_fraction": 0.9987,
+      "estimated_status": "complete",
+      "supported_samples": 1518,
+      "surface_samples": 1520
+    },
+    {
+      "element_id": "east_wall_south",
+      "ifc_guid": "1wV$6cLQ1KxegVHNwnXo88",
+      "supported_surface_fraction": 0.5423,
+      "estimated_status": "partial",
+      "supported_samples": 269,
+      "surface_samples": 496
+    },
+    {
+      "element_id": "east_wall_north",
+      "ifc_guid": "0DHhi_6z1VeQXBkyM2fbVY",
+      "supported_surface_fraction": 0.5693,
+      "estimated_status": "partial",
+      "supported_samples": 419,
+      "surface_samples": 736
+    },
+    {
+      "element_id": "east_window_sill",
+      "ifc_guid": "0c982ri6rTqR1PYkCbdR5D",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 144,
+      "surface_samples": 144
+    },
+    {
+      "element_id": "east_window_header",
+      "ifc_guid": "2TFZqnQ0DQc8mlHLxopJLr",
+      "supported_surface_fraction": 0.0,
+      "estimated_status": "not_started",
+      "supported_samples": 0,
+      "surface_samples": 126
+    },
+    {
+      "element_id": "flat_roof",
+      "ifc_guid": "3cjI8R_hTVl9JcThpKb$JH",
+      "supported_surface_fraction": 0.001,
+      "estimated_status": "not_started",
+      "supported_samples": 5,
+      "surface_samples": 4848
+    },
+    {
+      "element_id": "front_door",
+      "ifc_guid": "25RSqmwjvLmfzxzdyWdGQZ",
+      "supported_surface_fraction": 0.1905,
+      "estimated_status": "not_started",
+      "supported_samples": 40,
+      "surface_samples": 210
+    },
+    {
+      "element_id": "north_window",
+      "ifc_guid": "0zzQw7SujVQhQO5sI47vhf",
+      "supported_surface_fraction": 0.3086,
+      "estimated_status": "not_started",
+      "supported_samples": 50,
+      "surface_samples": 162
+    },
+    {
+      "element_id": "east_window",
+      "ifc_guid": "0HufmknkXP3R6AGUzgKuO$",
+      "supported_surface_fraction": 0.1852,
+      "estimated_status": "not_started",
+      "supported_samples": 30,
+      "surface_samples": 162
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "direction": "scan_to_BIM",
+  "units": "metres",
+  "ifc": "sample_complex/complex_facility.ifc",
+  "scan": "sample_complex/unfinished_scan.ply",
+  "demo_perturb": false,
+  "initial_method": "slab_plane_and_footprint",
+  "initial_pose": {
+    "R": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "t": [
+      0.002195000000000391,
+      -0.003734999999999822,
+      -8e-05
+    ]
+  },
+  "R": [
+    [
+      0.9999998658482212,
+      -0.00020284514246171145,
+      -0.0004766103101559077
+    ],
+    [
+      0.00020297372361150246,
+      0.999999943018387,
+      0.0002697496806275114
+    ],
+    [
+      0.00047655556558548755,
+      -0.00026984638380947586,
+      0.9999998500388498
+    ]
+  ],
+  "t": [
+    -0.0001740123012137218,
+    -0.002345798678450972,
+    -0.0029318633922477133
+  ],
+  "scan_points": 90944,
+  "registration_points": 34174,
+  "model_surface_points": 51807,
+  "iterations": [
+    {
+      "iteration": 1,
+      "correspondences": 29047,
+      "rms_m": 0.055905
+    },
+    {
+      "iteration": 2,
+      "correspondences": 29047,
+      "rms_m": 0.055866
+    },
+    {
+      "iteration": 3,
+      "correspondences": 29047,
+      "rms_m": 0.05585
+    },
+    {
+      "iteration": 4,
+      "correspondences": 29047,
+      "rms_m": 0.055841
+    },
+    {
+      "iteration": 5,
+      "correspondences": 29047,
+      "rms_m": 0.055837
+    },
+    {
+      "iteration": 6,
+      "correspondences": 29047,
+      "rms_m": 0.055835
+    },
+    {
+      "iteration": 7,
+      "correspondences": 29047,
+      "rms_m": 0.055834
+    },
+    {
+      "iteration": 8,
+      "correspondences": 29047,
+      "rms_m": 0.055833
+    },
+    {
+      "iteration": 9,
+      "correspondences": 29047,
+      "rms_m": 0.055832
+    },
+    {
+      "iteration": 10,
+      "correspondences": 29047,
+      "rms_m": 0.055832
+    },
+    {
+      "iteration": 11,
+      "correspondences": 29047,
+      "rms_m": 0.055832
+    },
+    {
+      "iteration": 12,
+      "correspondences": 29047,
+      "rms_m": 0.055832
+    },
+    {
+      "iteration": 13,
+      "correspondences": 29047,
+      "rms_m": 0.055832
+    },
+    {
+      "iteration": 14,
+      "correspondences": 29047,
+      "rms_m": 0.055832
+    },
+    {
+      "iteration": 15,
+      "correspondences": 29047,
+      "rms_m": 0.055832
+    },
+    {
+      "iteration": 16,
+      "correspondences": 29047,
+      "rms_m": 0.055832
+    },
+    {
+      "iteration": 17,
+      "correspondences": 29047,
+      "rms_m": 0.055832
+    },
+    {
+      "iteration": 18,
+      "correspondences": 29047,
+      "rms_m": 0.055832
+    },
+    {
+      "iteration": 19,
+      "correspondences": 29045,
+      "rms_m": 0.05583
+    },
+    {
+      "iteration": 20,
+      "correspondences": 29045,
+      "rms_m": 0.05583
+    }
+  ],
+  "final_rms_m": 0.05583,
+  "scan_inlier_fraction_0_20m": 0.9999,
+  "status_rule": "surface support <0.35: not_started; >=0.85: complete; otherwise partial",
+  "elements": [
+    {
+      "element_id": "slab_main",
+      "ifc_guid": "0x$os07izRmAVSQjSYbjFT",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 5323,
+      "surface_samples": 5323
+    },
+    {
+      "element_id": "slab_south_wing",
+      "ifc_guid": "32Hj0fh9DPtx1egFxcxJWW",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 2297,
+      "surface_samples": 2297
+    },
+    {
+      "element_id": "column_c1_main_west",
+      "ifc_guid": "2$bTs9CZjSYQemT2h3nJrh",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 322,
+      "surface_samples": 322
+    },
+    {
+      "element_id": "column_c2_main_mid",
+      "ifc_guid": "0iIc6XwLvL7PzCa06nUptM",
+      "supported_surface_fraction": 0.5926,
+      "estimated_status": "partial",
+      "supported_samples": 192,
+      "surface_samples": 324
+    },
+    {
+      "element_id": "column_c3_main_east",
+      "ifc_guid": "1t8CM4f7HUUvZLB9gUIYWj",
+      "supported_surface_fraction": 0.037,
+      "estimated_status": "not_started",
+      "supported_samples": 12,
+      "surface_samples": 324
+    },
+    {
+      "element_id": "column_c4_south_wing",
+      "ifc_guid": "2zpV6zD0jMEQubp$Z2PfWl",
+      "supported_surface_fraction": 0.7246,
+      "estimated_status": "partial",
+      "supported_samples": 200,
+      "surface_samples": 276
+    },
+    {
+      "element_id": "column_c5_junction",
+      "ifc_guid": "2E_lW7IorLT8b6IcIHQXaV",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 216,
+      "surface_samples": 216
+    },
+    {
+      "element_id": "pipe_main_header",
+      "ifc_guid": "3OYLyHBP1NQQ2yAXUfbUAb",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 665,
+      "surface_samples": 665
+    },
+    {
+      "element_id": "pipe_vertical_riser",
+      "ifc_guid": "11z0DDg_TIdwRLFQMRl9Ry",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 178,
+      "surface_samples": 178
+    },
+    {
+      "element_id": "pipe_branch_south",
+      "ifc_guid": "2yx4k8y8XKwPOSXJ3R4m$K",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 310,
+      "surface_samples": 310
+    },
+    {
+      "element_id": "pipe_cooling_loop",
+      "ifc_guid": "29HpZY0k5NsBdjN2uf3k0b",
+      "supported_surface_fraction": 0.0,
+      "estimated_status": "not_started",
+      "supported_samples": 0,
+      "surface_samples": 292
+    },
+    {
+      "element_id": "pipe_drainage_riser",
+      "ifc_guid": "3k8yQGkQPIuQMN3bbfmd$$",
+      "supported_surface_fraction": 0.0426,
+      "estimated_status": "not_started",
+      "supported_samples": 8,
+      "surface_samples": 188
+    },
+    {
+      "element_id": "wall_north",
+      "ifc_guid": "0gbfNmzgDVrvmpkcF4ZFfy",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 5106,
+      "surface_samples": 5106
+    },
+    {
+      "element_id": "wall_east_main",
+      "ifc_guid": "3GH1CDfQ9KhRHlirASNc1_",
+      "supported_surface_fraction": 0.066,
+      "estimated_status": "not_started",
+      "supported_samples": 187,
+      "surface_samples": 2835
+    },
+    {
+      "element_id": "wall_inner_notch_east",
+      "ifc_guid": "0U1utd1TrS3OHNLKxGtoIr",
+      "supported_surface_fraction": 0.0729,
+      "estimated_status": "not_started",
+      "supported_samples": 205,
+      "surface_samples": 2811
+    },
+    {
+      "element_id": "wall_inner_notch_south",
+      "ifc_guid": "3Cpgz4jpHOTBcud0sC53tO",
+      "supported_surface_fraction": 0.6396,
+      "estimated_status": "partial",
+      "supported_samples": 1798,
+      "surface_samples": 2811
+    },
+    {
+      "element_id": "wall_south_wing",
+      "ifc_guid": "3IIYpex$zQMQhYrXbla4Xs",
+      "supported_surface_fraction": 0.4943,
+      "estimated_status": "partial",
+      "supported_samples": 1081,
+      "surface_samples": 2187
+    },
+    {
+      "element_id": "wall_west_wing",
+      "ifc_guid": "1nti5ajZjVtv64nUyEjfKX",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 2784,
+      "surface_samples": 2784
+    },
+    {
+      "element_id": "wall_west_main",
+      "ifc_guid": "0PrP2pwVnPURrkycc2$CLS",
+      "supported_surface_fraction": 1.0,
+      "estimated_status": "complete",
+      "supported_samples": 2808,
+      "surface_samples": 2808
+    },
+    {
+      "element_id": "wall_partition_control_room",
+      "ifc_guid": "1JugfT_h5SOvmy1Z2A7QeQ",
+      "supported_surface_fraction": 0.6557,
+      "estimated_status": "partial",
+      "supported_samples": 1668,
+      "surface_samples": 2544
+    },
+    {
+      "element_id": "wall_partition_mechanical",
+      "ifc_guid": "04E3YeM9vRrRr0D3vQ2rfr",
+      "supported_surface_fraction": 0.1089,
+      "estimated_status": "not_started",
+      "supported_samples": 196,
+      "surface_samples": 1800
+    },
+    {
+      "element_id": "door_main_entrance",
+      "ifc_guid": "31o9VPGOTVCuqSG0UqI9a9",
+      "supported_surface_fraction": 0,
+      "estimated_status": "not_started",
+      "supported_samples": 0,
+      "surface_samples": 0
+    },
+    {
+      "element_id": "door_control_room",
+      "ifc_guid": "1Uu4hBv7HI4B$7wLnLnOS4",
+      "supported_surface_fraction": 0,
+      "estimated_status": "not_started",
+      "supported_samples": 0,
+      "surface_samples": 0
+    },
+    {
+      "element_id": "window_north_office",
+      "ifc_guid": "1tk6eB$ZrTTRgKr4zTr570",
+      "supported_surface_fraction": 0,
+      "estimated_status": "not_started",
+      "supported_samples": 0,
+      "surface_samples": 0
+    },
+    {
+      "element_id": "roof_main",
+      "ifc_guid": "1JLyOloF1LJ9UlKZAeOscz",
+      "supported_surface_fraction": 0.002,
+      "estimated_status": "not_started",
+      "supported_samples": 22,
+      "surface_samples": 10751
+    },
+    {
+      "element_id": "roof_south_wing",
+      "ifc_guid": "2fs2rv0bTVrRC8JDZG1rMj",
+      "supported_surface_fraction": 0.0021,
+      "estimated_status": "not_started",
+      "supported_samples": 10,
+      "surface_samples": 4655
+    }
+  ]
+}

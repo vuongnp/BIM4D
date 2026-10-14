@@ -1,0 +1,699 @@
+{
+  "coordinate_system": "local Cartesian, metres; x east, y north, z up",
+  "description": "L-shaped industrial workshop with interior columns and MEP pipes",
+  "scan_seed": 20261001,
+  "scan_spacing_m": 0.08,
+  "scan_noise_sigma_m": 0.008,
+  "scan_keep_probability": 0.84,
+  "point_count": 90944,
+  "completion_definition": "Built solid volume divided by full BIM solid volume per IFC element",
+  "overall_built_volume_fraction": 0.534775,
+  "overall_built_volume_pct": 53.5,
+  "elements": [
+    {
+      "element_id": "slab_main",
+      "ifc_guid": "0x$os07izRmAVSQjSYbjFT",
+      "ifc_class": "IFCSLAB",
+      "full_bbox_m": [
+        [
+          -0.2,
+          -0.2,
+          -0.25
+        ],
+        [
+          14.2,
+          8.2,
+          0.0
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          -0.2,
+          -0.2,
+          -0.25
+        ],
+        [
+          14.2,
+          8.2,
+          0.0
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "slab_south_wing",
+      "ifc_guid": "32Hj0fh9DPtx1egFxcxJWW",
+      "ifc_class": "IFCSLAB",
+      "full_bbox_m": [
+        [
+          -0.2,
+          -8.2,
+          -0.25
+        ],
+        [
+          6.2,
+          -0.2,
+          0.0
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          -0.2,
+          -8.2,
+          -0.25
+        ],
+        [
+          6.2,
+          -0.2,
+          0.0
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "column_c1_main_west",
+      "ifc_guid": "2$bTs9CZjSYQemT2h3nJrh",
+      "ifc_class": "IFCCOLUMN",
+      "full_bbox_m": [
+        [
+          2.8,
+          3.8,
+          0.0
+        ],
+        [
+          3.2,
+          4.2,
+          4.0
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          2.8,
+          3.8,
+          0.0
+        ],
+        [
+          3.2,
+          4.2,
+          4.0
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "column_c2_main_mid",
+      "ifc_guid": "0iIc6XwLvL7PzCa06nUptM",
+      "ifc_class": "IFCCOLUMN",
+      "full_bbox_m": [
+        [
+          6.8,
+          3.8,
+          0.0
+        ],
+        [
+          7.2,
+          4.2,
+          4.0
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          6.8,
+          3.8,
+          0.0
+        ],
+        [
+          7.2,
+          4.2,
+          2.2
+        ]
+      ],
+      "built_volume_fraction": 0.55,
+      "status": "partial"
+    },
+    {
+      "element_id": "column_c3_main_east",
+      "ifc_guid": "1t8CM4f7HUUvZLB9gUIYWj",
+      "ifc_class": "IFCCOLUMN",
+      "full_bbox_m": [
+        [
+          10.8,
+          3.8,
+          0.0
+        ],
+        [
+          11.2,
+          4.2,
+          4.0
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0.0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "column_c4_south_wing",
+      "ifc_guid": "2zpV6zD0jMEQubp$Z2PfWl",
+      "ifc_class": "IFCCOLUMN",
+      "full_bbox_m": [
+        [
+          2.8,
+          -4.2,
+          0.0
+        ],
+        [
+          3.2,
+          -3.8,
+          4.0
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          2.8,
+          -4.2,
+          0.0
+        ],
+        [
+          3.2,
+          -3.8,
+          2.8
+        ]
+      ],
+      "built_volume_fraction": 0.7,
+      "status": "partial"
+    },
+    {
+      "element_id": "column_c5_junction",
+      "ifc_guid": "2E_lW7IorLT8b6IcIHQXaV",
+      "ifc_class": "IFCCOLUMN",
+      "full_bbox_m": [
+        [
+          5.8,
+          -0.2,
+          0.0
+        ],
+        [
+          6.2,
+          0.2,
+          4.0
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          5.8,
+          -0.2,
+          0.0
+        ],
+        [
+          6.2,
+          0.2,
+          4.0
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "pipe_main_header",
+      "ifc_guid": "3OYLyHBP1NQQ2yAXUfbUAb",
+      "ifc_class": "IFCFLOWSEGMENT",
+      "full_bbox_m": [
+        [
+          1.0,
+          4.9,
+          3.3
+        ],
+        [
+          13.5,
+          5.1,
+          3.5
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          1.0,
+          4.9,
+          3.3
+        ],
+        [
+          13.5,
+          5.1,
+          3.5
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "pipe_vertical_riser",
+      "ifc_guid": "11z0DDg_TIdwRLFQMRl9Ry",
+      "ifc_class": "IFCFLOWSEGMENT",
+      "full_bbox_m": [
+        [
+          0.9,
+          4.9,
+          0.0
+        ],
+        [
+          1.1,
+          5.1,
+          3.3
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          0.9,
+          4.9,
+          0.0
+        ],
+        [
+          1.1,
+          5.1,
+          3.3
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "pipe_branch_south",
+      "ifc_guid": "2yx4k8y8XKwPOSXJ3R4m$K",
+      "ifc_class": "IFCFLOWSEGMENT",
+      "full_bbox_m": [
+        [
+          2.9,
+          -1.0,
+          3.4
+        ],
+        [
+          3.1,
+          4.9,
+          3.6
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          2.9,
+          -1.0,
+          3.4
+        ],
+        [
+          3.1,
+          4.9,
+          3.6
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "pipe_cooling_loop",
+      "ifc_guid": "29HpZY0k5NsBdjN2uf3k0b",
+      "ifc_class": "IFCFLOWSEGMENT",
+      "full_bbox_m": [
+        [
+          8.0,
+          1.9,
+          3.3
+        ],
+        [
+          13.5,
+          2.1,
+          3.5
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0.0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "pipe_drainage_riser",
+      "ifc_guid": "3k8yQGkQPIuQMN3bbfmd$$",
+      "ifc_class": "IFCFLOWSEGMENT",
+      "full_bbox_m": [
+        [
+          2.9,
+          -6.5,
+          0.0
+        ],
+        [
+          3.1,
+          -6.3,
+          3.4
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0.0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "wall_north",
+      "ifc_guid": "0gbfNmzgDVrvmpkcF4ZFfy",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          0.0,
+          7.8,
+          0.0
+        ],
+        [
+          14.0,
+          8.0,
+          4.0
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          0.0,
+          7.8,
+          0.0
+        ],
+        [
+          14.0,
+          8.0,
+          4.0
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "wall_east_main",
+      "ifc_guid": "3GH1CDfQ9KhRHlirASNc1_",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          13.8,
+          0.0,
+          0.0
+        ],
+        [
+          14.0,
+          7.8,
+          4.0
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0.0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "wall_inner_notch_east",
+      "ifc_guid": "0U1utd1TrS3OHNLKxGtoIr",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          5.8,
+          -7.8,
+          0.0
+        ],
+        [
+          6.0,
+          0.0,
+          4.0
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0.0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "wall_inner_notch_south",
+      "ifc_guid": "3Cpgz4jpHOTBcud0sC53tO",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          6.0,
+          0.0,
+          0.0
+        ],
+        [
+          13.8,
+          0.2,
+          4.0
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          6.0,
+          0.0,
+          0.0
+        ],
+        [
+          13.8,
+          0.2,
+          2.4
+        ]
+      ],
+      "built_volume_fraction": 0.6,
+      "status": "partial"
+    },
+    {
+      "element_id": "wall_south_wing",
+      "ifc_guid": "3IIYpex$zQMQhYrXbla4Xs",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          0.0,
+          -8.0,
+          0.0
+        ],
+        [
+          5.8,
+          -7.8,
+          4.0
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          0.0,
+          -8.0,
+          0.0
+        ],
+        [
+          5.8,
+          -7.8,
+          1.8
+        ]
+      ],
+      "built_volume_fraction": 0.45,
+      "status": "partial"
+    },
+    {
+      "element_id": "wall_west_wing",
+      "ifc_guid": "1nti5ajZjVtv64nUyEjfKX",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          0.0,
+          -7.8,
+          0.0
+        ],
+        [
+          0.2,
+          0.0,
+          4.0
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          0.0,
+          -7.8,
+          0.0
+        ],
+        [
+          0.2,
+          0.0,
+          4.0
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "wall_west_main",
+      "ifc_guid": "0PrP2pwVnPURrkycc2$CLS",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.2,
+          7.8,
+          4.0
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.2,
+          7.8,
+          4.0
+        ]
+      ],
+      "built_volume_fraction": 1.0,
+      "status": "complete"
+    },
+    {
+      "element_id": "wall_partition_control_room",
+      "ifc_guid": "1JugfT_h5SOvmy1Z2A7QeQ",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          8.8,
+          0.2,
+          0.0
+        ],
+        [
+          9.0,
+          7.8,
+          3.5
+        ]
+      ],
+      "built_bbox_m": [
+        [
+          8.8,
+          0.2,
+          0.0
+        ],
+        [
+          9.0,
+          7.8,
+          2.2
+        ]
+      ],
+      "built_volume_fraction": 0.628571,
+      "status": "partial"
+    },
+    {
+      "element_id": "wall_partition_mechanical",
+      "ifc_guid": "04E3YeM9vRrRr0D3vQ2rfr",
+      "ifc_class": "IFCWALL",
+      "full_bbox_m": [
+        [
+          0.2,
+          -4.1,
+          0.0
+        ],
+        [
+          5.8,
+          -3.9,
+          3.5
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0.0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "door_main_entrance",
+      "ifc_guid": "31o9VPGOTVCuqSG0UqI9a9",
+      "ifc_class": "IFCDOOR",
+      "full_bbox_m": [
+        [
+          3.0,
+          7.85,
+          0.0
+        ],
+        [
+          4.0,
+          7.95,
+          2.2
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0.0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "door_control_room",
+      "ifc_guid": "1Uu4hBv7HI4B$7wLnLnOS4",
+      "ifc_class": "IFCDOOR",
+      "full_bbox_m": [
+        [
+          8.85,
+          3.5,
+          0.0
+        ],
+        [
+          8.95,
+          4.5,
+          2.2
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0.0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "window_north_office",
+      "ifc_guid": "1tk6eB$ZrTTRgKr4zTr570",
+      "ifc_class": "IFCWINDOW",
+      "full_bbox_m": [
+        [
+          10.5,
+          7.85,
+          1.2
+        ],
+        [
+          12.0,
+          7.95,
+          2.6
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0.0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "roof_main",
+      "ifc_guid": "1JLyOloF1LJ9UlKZAeOscz",
+      "ifc_class": "IFCSLAB",
+      "full_bbox_m": [
+        [
+          -0.2,
+          -0.2,
+          4.0
+        ],
+        [
+          14.2,
+          8.2,
+          4.25
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0.0,
+      "status": "not_started"
+    },
+    {
+      "element_id": "roof_south_wing",
+      "ifc_guid": "2fs2rv0bTVrRC8JDZG1rMj",
+      "ifc_class": "IFCSLAB",
+      "full_bbox_m": [
+        [
+          -0.2,
+          -8.2,
+          4.0
+        ],
+        [
+          6.2,
+          -0.2,
+          4.25
+        ]
+      ],
+      "built_bbox_m": null,
+      "built_volume_fraction": 0.0,
+      "status": "not_started"
+    }
+  ]
+}
